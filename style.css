@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "Retro-Gaming";
+  src: url("./retro_gaming/Retro-Gaming.otf") format("opentype"),
+    url("./retro_gaming/Retro-Gaming.woff") format("woff"),
+    url("./retro_gaming/Retro-Gaming.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Retro-Gaming";
+  background-color: black;
+  height: 100%;
+  overflow: hidden;
+}
+
+body * {
+  font-family: "Retro-Gaming";
+}
+
+.hidden {
+  display: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track ::before {
+  content: '';
+  display: block;
+  height: 100%;
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+#top-nav {
+  position: relative;
+  margin: 0 2rem;
+  height: 3rem;
+  background-color: #000;
+  border-bottom: solid white 2px;
+  z-index: 2;
+}
+
+#top-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: end;
+  height: 100%;
+  width: 100%;
+}
+
+#top-nav ul li+li {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+#top-nav ul li:has(button) {
+  flex: 1;
+}
+
+#top-nav ul li+li+li {
+  display: flex;
+  justify-content: end;
+}
+
+
+#top-nav ul li button {
+  color: #fff;
+  background-color: transparent;
+  font-size: 1rem;
+  border: transparent;
+}
+
+
+#top-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+
+.inner-container {
+  height: calc(100vh - 3rem);
+  position: relative;
+}
+
+
+
+
+#Main {
+  /* height: 100vh; */
+  position: absolute;
+  height: calc(100vh - 3rem);
+  /* width: 100% !important; */
+  width: 100%;
+  overflow: hidden;
+}
+
+#side-nav {
+  position: absolute;
+  z-index: 5;
+}
+
+#side-nav,
+#side-nav ul {
+
+  /* margin: 1rem 1rem; */
+  /* padding: 0 0 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: calc(100vh - 3rem);
+  width: fit-content;
+}
+
+#side-nav ul li {
+  display: block;
+  margin-inline: auto;
+}
+
+#side-nav img {
+  position: relative;
+  z-index: 0;
+  width: 5rem;
+  filter: drop-shadow(0px 0px 4px hotpink) brightness(120%)
+}
+
+.side-nav-button {
+  margin: clamp(.4rem, 30%, 1rem);
+  background-color: transparent;
+  border: transparent;
+}
+
+.side-nav-button p {
+  margin: .3rem;
+  font-size: 1rem;
+  color: aqua;
+}
+
+
+
+
+.wrapper {
+  color: #fff;
+  position: fixed !important;
+  top: 50%;
+  left: 50%;
+  max-width: 20rem;
+  width: 100%;
+  height: 18rem;
+  background: #000;
+  /* border-radius: 10px; */
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 5px rgba(252, 252, 252, 0.797);
+  border: solid 3px #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper header {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0 1rem;
+  border-bottom: 3px solid #ccc;
+}
+
+.wrapper header .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.wrapper .content {
+  position: relative;
+  height: 100%;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+button {
+  z-index: 1;
+}
