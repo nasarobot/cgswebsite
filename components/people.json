@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Jeevankur Talukder",
+    "img": "./assets/team-images/1.jpg",
+    "role": "Head",
+    "linkedin": "https://in.linkedin.com/in/jeevankur1999",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/jvankooo/"
+  },
+  {
+    "name": "Sudeep Sharma",
+    "img": "./assets/team-images/2.jpg",
+    "role": "Head",
+    "linkedin": "",
+    "facebook": "",
+    "instagram": ""
+  },
+  {
+    "name": "Raj Gupta",
+    "img": "./assets/team-images/3.jpg",
+    "role": "Head",
+    "linkedin": "",
+    "facebook": "",
+    "instagram": ""
+  },
+  {
+    "name": "Utkarsh Parasarampuria",
+    "img": "./assets/team-images/4.jpg",
+    "role": "Alumni Advisor",
+    "linkedin": "https://www.linkedin.com/in/utkarsh-parasarampuria/",
+    "facebook": "https://www.facebook.com/utkarsh.parasarampuria/",
+    "instagram": "https://www.instagram.com/utkarshparasarampuria/"
+  },
+  {
+    "name": "Teyjus Gupta",
+    "img": "./assets/team-images/5.jpg",
+    "role": "Sub-Head",
+    "linkedin": "",
+    "facebook": "",
+    "instagram": ""
+  },
+  {
+    "name": "Dvij Kalaria",
+    "img": "./assets/team-images/6.jpg",
+    "role": "Sub-Head",
+    "linkedin": "https://www.linkedin.com/in/dvij-kalaria-707a5a175/",
+    "facebook": "https://www.facebook.com/dvij.kalaria/",
+    "instagram": "https://www.instagram.com/dvij5420/?hl=en"
+  },
+  {
+    "name": "Sai Narayan",
+    "img": "./assets/team-images/7.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/sai-narayan-0560721b2",
+    "facebook": "https://www.facebook.com/sai.narayan.735",
+    "instagram": "https://www.instagram.com/ssainarayan"
+  },
+  {
+    "name": "Shreyash Vaish",
+    "img": "./assets/team-images/8.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/mwlite/in/shreyash-vaish-503559166",
+    "facebook": "https://m.facebook.com/m.me.shrey.vaish.3",
+    "instagram": "https://www.instagram.com/_shry_2912/"
+  },
+  {
+    "name": "Shreyas Ranveerkar",
+    "img": "./assets/team-images/9.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/shreyas-ranveerkar-489233192",
+    "facebook": "https://www.facebook.com/shreyas.ranveerkar",
+    "instagram": "http://www.instagram.com/ranveerkar_shreyas"
+  },
+  {
+    "name": "Vishal Maurya",
+    "img": "./assets/team-images/10.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/vishal-maurya-94157b1a2",
+    "facebook": "https://m.facebook.com/vishal.maurya.7503314?ref=bookmarks",
+    "instagram": ""
+  },
+  {
+    "name": "Anuj Verma",
+    "img": "./assets/team-images/11.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/anuj-verma-b430431b1/",
+    "facebook": "https://www.facebook.com/profile.php?id=100039765825690",
+    "instagram": "https://www.instagram.com/oxone_999/"
+  },
+  {
+    "name": "Shivam Pandey",
+    "img": "./assets/team-images/12.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/shivam-pandey-65a619196/",
+    "facebook": "https://www.facebook.com/lmshivampandey",
+    "instagram": ""
+  },
+  {
+    "name": "Avik Dutta",
+    "img": "./assets/team-images/13.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "",
+    "facebook": "https://www.facebook.com/avik.dutta.1614460",
+    "instagram": "https://instagram.com/d__avik?igshid=14f7bwbe6hv9n"
+  },
+  {
+    "name": "Vishal Verma",
+    "img": "./assets/team-images/14.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/vishal-verma-4ba4861aa",
+    "facebook": "https://www.facebook.com/profile.php?id=100006189586514",
+    "instagram": ""
+  },
+  {
+    "name": "Abhisar Dash",
+    "img": "./assets/team-images/15.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/abhisar-dash-599b691ab/",
+    "facebook": "https://www.facebook.com/abhisar.dash.1",
+    "instagram": "https://www.instagram.com/abhisardash/?hl=en"
+  },
+  {
+    "name": "Jyotiraditya",
+    "img": "./assets/team-images/16.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/jyotiraditya-7084b4194/",
+    "facebook": "https://www.facebook.com/jyotiraditya.aryan?ref=bookmarks",
+    "instagram": "https://www.instagram.com/jrd19_aryan/?hl=en"
+  },
+  {
+    "name": "Lavin Titare",
+    "img": "./assets/team-images/17.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "",
+    "facebook": "https://www.facebook.com/lavin.titare",
+    "instagram": "https://www.instagram.com/lavintitare/"
+  },
+  {
+    "name": "Sagar Suman",
+    "img": "./assets/team-images/18.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/sagar-suman-66974b199",
+    "facebook": "https://m.facebook.com/sagarsuman1299",
+    "instagram": "https://www.instagram.com/sagarsuman_sonu/"
+  },
+  {
+    "name": "Divyajyoti Nayak",
+    "img": "./assets/team-images/19.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/divyajyoti-nayak-3619731a1/",
+    "facebook": "https://www.facebook.com/profile.php?id=100009215008158",
+    "instagram": "https://www.instagram.com/dj_nayak061201/?hl=en"
+  },
+  {
+    "name": "Ojas Deshmukh",
+    "img": "./assets/team-images/20.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/ojas-deshmukh-4a2a041a2",
+    "facebook": "https://www.facebook.com/ojas.deshmukh.94",
+    "instagram": "https://www.instagram.com/wiz_of_oj/"
+  },
+  {
+    "name": "Harsh Sharma",
+    "img": "./assets/team-images/21.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "",
+    "facebook": "https://www.facebook.com/profile.php?id=100004573561633",
+    "instagram": "https://www.instagram.com/harsh8164?r=nametag"
+  },
+  {
+    "name": "Dev Agarwal",
+    "img": "./assets/team-images/22.jpg",
+    "role": "Co-ordinator",
+    "linkedin": "https://www.linkedin.com/in/dev-agarwal-846382193",
+    "facebook": "https://www.facebook.com/devagarwal588",
+    "instagram": ""
+  }
+]

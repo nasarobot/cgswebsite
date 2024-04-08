@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="components/carousel.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -53,28 +54,39 @@
         </ul>
       </nav>
       <div id="Main">
-        <section class="wrapper about-us hidden" id="about-us">
+        <section class="wrapper about-us draggable hidden" id="about-us">
           <header>About us<button class="close-button">X</button></header>
           <div class="content"></div>
         </section>
-        <section class="wrapper what-we-do hidden" id="what-we-do">
+        <section class="wrapper what-we-do draggable hidden" id="what-we-do">
           <header>What we do<button class="close-button">X</button></header>
           <div class="content"></div>
         </section>
-        <section class="wrapper our-games hidden" id="our-games">
+        <section class="wrapper our-games full-wrapper hidden" id="our-games">
           <header>Our Games<button class="close-button">X</button></header>
           <div class="content">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, nemo? Ratione repudiandae fuga, quis
-            enim similique expedita, exercitationem magnam laboriosam unde praesentium, a neque dolores aperiam optio
-            ipsam. Neque labore ullam pariatur explicabo aliquid quasi qui. Tempore voluptates repudiandae, deserunt
-            doloribus nihil atque earum non repellat veritatis suscipit? Dolore, praesentium.
-          </div>
+            <div class="gallery">
+            <div class="gallery-container" id="gallery-container">
+              <!-- <div class="gallery-item gallery-item-1" data-index="1"><img src="./img-alt/holiday.jpg"></div>
+              <div class="gallery-item gallery-item-2" data-index="2"><img src="./img-alt/pass-thumbnail.png"></div>
+              <div class="gallery-item gallery-item-3" data-index="3"><img src="./img-alt/risky-thumbnail.png"></div>
+              <div class="gallery-item gallery-item-4" data-index="4"><img src="./img-alt/smiling-thumbnail.png"></div>
+              <div class="gallery-item gallery-item-5" data-index="5"><img src="./img-alt/space-thumbnail.png"></div>
+              <div class="gallery-item" data-index="6"><img src="./img-alt/thief-thumbnail.png"></div>
+              <div class="gallery-item" data-index="7"><img src="./img-alt/velocity-thumbnail.png"></div>
+            </div> -->
+            </div>
+            <div class="gallery-controls">
+              <!-- <button class="gallery-controls-previous">previous</button>
+                            <button class="gallery-controls-next">next</button> -->
+            </div>
+            </div>
         </section>
-        <section class="wrapper our-graphics hidden" id="our-graphics">
+        <section class="wrapper our-graphics draggable hidden" id="our-graphics">
           <header>Our Graphics<button class="close-button">X</button></header>
           <div class="content"></div>
         </section>
-        <section class="wrapper blog hidden" id="blog">
+        <section class="wrapper blog draggable hidden" id="blog">
           <header>Blog<button class="close-button">X</button></header>
           <div class="content"></div>
         </section>

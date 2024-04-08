@@ -1,0 +1,126 @@
+.gallery {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 60rem;
+  position: relative;
+}
+
+.gallery-item {
+  height: 12.5rem;
+  opacity: 0;
+  position: absolute;
+  left: 15%;
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+  border: solid #fff .25rem;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: .5em 3em .5em 1em;
+  background-color: #000;
+  color: #fff;
+  font-size: 1em;
+  border-top: solid #fff .25rem;
+  clip-path: polygon(0 0, calc(100% - 2em) 0, 100% 100%, 0 100%);
+}
+
+.gallery-item p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 2.1em;
+  background-color: #fff;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100% - .3em) 100%);
+}
+
+.gallery-item-1 {
+  left: 15%;
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.gallery-item-2,
+.gallery-item-4 {
+  height: 15rem;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.gallery-item-2 {
+  left: 30%;
+  transform: translateX(-70%);
+}
+
+.gallery-item-3 {
+  box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+  height: 19rem;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.gallery-item-4 {
+  left: 70%;
+  transform: translateX(-30%);
+}
+
+.gallery-item-5 {
+  left: 85%;
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.gallery-controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  height: 0;
+}
+
+.gallery-controls button {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+  border: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 3rem;
+  margin: 0 3rem;
+  padding: 0 .75rem;
+  text-transform: capitalize;
+  z-index: 2;
+}
+
+.gallery-controls button:focus {
+  outline: none;
+}
+
+.gallery-controls-previous {
+  left: 0;
+}
+
+.gallery-controls-next {
+  right: 0;
+}

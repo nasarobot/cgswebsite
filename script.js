@@ -1,3 +1,6 @@
+import Carousel from './components/carousel'
+import { populateGames } from './components/games'
+
 const wrapper = document.querySelectorAll(".wrapper")
 const sideNavButtons = document.querySelectorAll(".side-nav-button")
 const closeButtons = document.querySelectorAll(".close-button")
@@ -9,27 +12,14 @@ wrapper.forEach(item => {
     // e.preventDefault();
     item.children[0].classList.add("active");
     push_(item.children[0])
-    listenMouseMove(item)
   });
 })
-const listenMouseMove = (item) => {
-  // item.children[0].addEventListener("mousemove", onDrag);
-}
-// function onDrag({ movementX, movementY }) {
-//   let activeWrapper = Main.querySelector('.active').parentElement;
-//   let getStyle = window.getComputedStyle(activeWrapper);
-//   let leftVal = parseInt(getStyle.left);
-//   let topVal = parseInt(getStyle.top);
-//   activeWrapper.style.left = `${leftVal + movementX}px`;
-//   activeWrapper.style.top = `${topVal + movementY}px`;
-// }
 
 document.addEventListener("mouseup", () => {
-  let activeHrapper = Main.querySelector('.active');
-  // push_(activeWrapper)
-  if (activeHrapper) {
-    activeHrapper.classList.remove("active");
-    // activeHrapper.removeEventListener("mousemove", onDrag);
+  let activeWrapper = Main.querySelector('.active');
+  push_(activeWrapper)
+  if (activeWrapper) {
+    activeWrapper.classList.remove("active");
   }
 });
 
@@ -116,18 +106,21 @@ import { Draggable } from "gsap/dist/Draggable";
 
 gsap.registerPlugin(Draggable);
 
-Draggable.create("#about-us", {
-  bounds: "#outer-container",
-});
-Draggable.create("#what-we-do", {
-  bounds: "#outer-container",
-})
-Draggable.create("#our-games", {
-  bounds: "#outer-container",
-})
-Draggable.create("#our-graphics", {
-  bounds: "#outer-container",
-})
-Draggable.create("#blog", {
-  bounds: "#outer-container",
+const draggables = document.querySelectorAll(".draggable");
+for (let i = 0; i < draggables.length; i++) {
+  Draggable.create(`#${draggables[i].classList[1]}`, {
+    bounds: "#outer-container",
+  })
+}
+
+populateGames('./components/games.json').then(() => {
+  const galleryContainer = document.querySelector(".gallery-container");
+  // const galleryControlsContainer = document.querySelector(".gallery-controls");
+  const galleryControls = [{ name: 'previous', text: '<' }, { name: 'next', text: '>' }];
+  const galleryItems = document.querySelectorAll(".gallery-item");
+
+  const myCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
+
+  myCarousel.setControls();
+  myCarousel.useControls();
 })
